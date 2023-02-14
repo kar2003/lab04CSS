@@ -1,0 +1,82 @@
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff2cc;
+  border: 1px solid #000;
+  font-family: "Times New Roman", Times, serif;
+  font-variant: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+    background-image: linear-gradient(rgb(92, 160, 205), rgb(174, 57, 155));
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    width: 90%;
+    height: 80px;
+    background-color: #000;
+    filter: invert(75%);
+    filter: contrast(300%);
+    filter: brightness(1.2);
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #f0f0f0;
+  align-self: center;
+}
+h2,
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+}
+/* h3,
+li{
+    background-image: url(./gradiant\ 2.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+} */
+
+li {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+p {
+  font-size: 2rem;
+  color: #5c97a8;
+  width: auto;
+  margin-left: 16px;
+  /* background-image: url(./gradiant\ 2.jpg);
+  background-size: contain;
+  background-attachment: fixed; */
+}
+section {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+img {
+  align-items: center;
+  width: 30%;
+  border-radius: 8px;
+  padding: 8rem auto;
+  display: block;
+  margin-left: 10%;
+  margin-right: 0%;
+}
+#footer {
+  font-size: 1rem;
+}
+li:nth-child(even) {
+  font-weight: bold;
+}
